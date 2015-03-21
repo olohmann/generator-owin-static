@@ -1,7 +1,8 @@
 # generator-owin-static [![Build Status](https://secure.travis-ci.org/olohmann/generator-owin-static.png?branch=master)](https://travis-ci.org/olohmann/generator-owin-static)
 
-> [Yeoman](http://yeoman.io) generator
+> A [Yeoman](http://yeoman.io) generator to create a minimal [OWIN](http://owin.org/)-based .NET Web application with its NuGet dependencies, project and solution files.
 
+The server uses the OWIN host package and the static file handler middleware instead of IIS Express. The purpose of this tiny project template is to have a quick start for doing demos and samples of static web applications in Visual Studio. 
 
 ## Getting Started
 
@@ -21,8 +22,6 @@ npm install -g yo
 
 ### Yeoman Generators
 
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
-
 To install generator-owin-static from npm, run:
 
 ```bash
@@ -37,10 +36,7 @@ yo owin-static
 
 ### Getting To Know Yeoman
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
 If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
-
 
 ## License
 
